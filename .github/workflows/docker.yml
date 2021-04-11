@@ -48,6 +48,8 @@ jobs:
         with:
           context: "."
           file: "Dockerfile"
+          tags: |
+            romainx/my-jupyter-stack:latest
           push: false
       - name: Run tests 
         run: python -m pytest tests
