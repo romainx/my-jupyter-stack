@@ -7,4 +7,4 @@ FROM jupyter/base-notebook
 
 # If you do switch to root, always be sure to add a "USER $NB_USER" command at the end of the
 # file to ensure the image runs as a unprivileged user by default.
-RUN echo "My Stack"
+RUN echo "My Stack ..."
