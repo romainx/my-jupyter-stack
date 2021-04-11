@@ -11,7 +11,7 @@ on:
       - "examples/**"
   push:
     branches:
-      - master
+      - master, main
     paths-ignore:
       - "*.md"
       - "binder/**"
